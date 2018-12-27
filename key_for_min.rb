@@ -5,13 +5,15 @@ def key_for_min_value(name_hash)
 
     if name_hash.length > 0
       
-      numero1 = 0
-      
+      number = 0
+      chose_key = ""
       name_hash.collect do |key, value|
-        value
-      end
-     
-    
+        if number == 0
+          number = value
+        elsif value < number && number != 0
+          number = value
+        end
+      
     else
       nil
     end
