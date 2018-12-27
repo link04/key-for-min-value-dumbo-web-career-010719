@@ -9,14 +9,13 @@ def key_for_min_value(name_hash)
       bajo = 0 
       iniciar = 0
         
-      name_hash.collect do |key, value|
-        value1 = value
-        if value > 
-        
-        
+      numbers = name_hash.collect do |key, value|
         value
       end
       
+      numbers.each do |a, b|
+      
+      end
       
     else
       nil
