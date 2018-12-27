@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
         value
       end
       
-      
+      numbers.each do |number|
       
     else
       nil
