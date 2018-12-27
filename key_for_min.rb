@@ -15,7 +15,9 @@ def key_for_min_value(name_hash)
           number = value
           chosen_key = key
         end
+      end
       chosen_key
+      
     else
       nil
     end
