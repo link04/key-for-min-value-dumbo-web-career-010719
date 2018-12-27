@@ -13,7 +13,13 @@ def key_for_min_value(name_hash)
       
       name_hash.collect do |key, value|
         
-        numbers.each do |value|
+        numbers.each do |item|
+          if value < item
+            numero1 = value
+          elsif item < value
+            numero1 = item
+          end
+        end
    
       end
       
