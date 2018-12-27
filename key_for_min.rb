@@ -4,9 +4,9 @@
 def key_for_min_value(name_hash)
 
     if name_hash.length > 0
-      
       number = 0
       chosen_key = ""
+      
       name_hash.collect do |key, value|
         if number == 0
           number = value
@@ -16,6 +16,7 @@ def key_for_min_value(name_hash)
           chosen_key = key
         end
       end
+      
       chosen_key
       
     else
