@@ -11,15 +11,9 @@ def key_for_min_value(name_hash)
         value
       end
       
-      numbers.each do |a, b|
+      name_hash.collect do |key, value|
         
-         if a == b
-    0
-  elsif a < b
-    -1
-  elsif a > b
-    1
-  end
+        if number
       end
       
     else
