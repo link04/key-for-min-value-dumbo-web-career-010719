@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
       
       name_hash.collect do |key, value|
         
-        numbers.collect do |item|
+        numbers.select do |item|
           if value < item
             numero1 = value
             key
