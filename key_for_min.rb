@@ -18,11 +18,12 @@ def key_for_min_value(name_hash)
             numero1 = value
           elsif item < value
             numero1 = item
+            
           end
         end
-   
+        
       end
-      
+      name_hash[]
     else
       nil
     end
